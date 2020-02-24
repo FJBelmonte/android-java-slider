@@ -12,6 +12,9 @@ public class MainActivity extends IntroActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
 
+        setButtonBackVisible(false);
+        setButtonNextVisible(false);
+
         addSlide(new SimpleSlide.Builder()
                 .title("Título 1")
                 .description("Descrição 1")
